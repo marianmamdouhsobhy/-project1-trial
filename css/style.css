@@ -1,0 +1,60 @@
+h2, h3{
+    font-family: 'Raleway', sans-serif;
+    color: #181E23;
+    font-weight: 700;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.title h2{
+    font-size: 48px;
+}
+#Ingredients-Facts button{
+    border: none;
+    background-color: transparent;
+    
+}
+.ingredient{
+    background-color: #f8f8f8;
+}
+.ingredient h3{
+    font-size: 20px;
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff9222;
+}
+/* what-our-clients-sayes */
+#what-our-clients-sayes{
+    background-image: url(../images/test-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+#what-our-clients-sayes h5{
+    color:#ff9222 ;
+    font-size: 14px;
+}
+.carousel-inner{
+    overflow: visible;
+}
+.carousel-caption{
+    position: initial;
+}
+.carousel-indicators{
+    position: unset;
+}
+.carousel-indicators li{
+    width:25px;
+    height:7px;
+    opacity: 1;
+    border-radius: 20px;
+}
+.carousel-indicators li.active{
+ background-color: #ff9222 !important;
+ width:40px !important;
+    
+}
